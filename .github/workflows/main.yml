@@ -15,9 +15,9 @@ jobs:
       uses: actions/checkout@v2 
 
     - name: Upload AWS S3
-      run: aws s3 mv Build/cifarm-build.data.unityweb s3://cifarm/v.1.5.a/data &
-           aws s3 mv Build/cifarm-build.framework.js.unityweb s3://cifarm/v.1.5.a/framework &
-           aws s3 mv Build/cifarm-build.loader.js s3://cifarm/v.1.5.a/loader &
-           aws s3 mv Build/cifarm-build.wasm.unityweb s3://cifarm/v.1.5.a/wasm & 
+      run: aws s3 mv Build/cifarm-build.data.unityweb s3://cifarm/v.1.6.a/data &
+           aws s3 mv Build/cifarm-build.framework.js.unityweb s3://cifarm/v.1.6.a/framework &
+           aws s3 mv Build/cifarm-build.loader.js s3://cifarm/v.1.6.a/loader &
+           aws s3 mv Build/cifarm-build.wasm.unityweb s3://cifarm/v.1.6.a/wasm & 
            wait
  
